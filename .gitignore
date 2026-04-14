@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual environment
+.venv/
+# Distribution / build directories
+dist/
+build/
+*.egg-info/
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+# IDE/editor files
+.vscode/
+.idea/
+# Lockfiles (should be included in version control)
+uv.lock
