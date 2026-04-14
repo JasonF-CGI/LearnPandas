@@ -1,41 +1,82 @@
-# Python Pandas Learning Repository
+# Learn Pandas
 
-This repository is dedicated to learning and experimenting with the Python Pandas library.
+A structured, hands-on repository for learning pandas using realistic datasets and progressive exercises.
 
-## Purpose
+## Overview
 
-The goal of this project is to build familiarity and confidence with the Pandas API by working through examples, exercises, and small experiments.
+This repo is designed to help you learn pandas by doing.
 
-## What You'll Find
+It includes:
+- Multiple realistic datasets
+- Beginner-friendly exercises
+- Guided Python templates with hints
 
-- Code snippets using the Pandas API  
-- Practice scripts for data manipulation and analysis  
-- Mocked DataFrames for testing and learning  
-- Examples covering common Pandas operations such as:
-  - Data cleaning
-  - Filtering and selection
-  - Aggregation
-  - Grouping
-  - Merging and joining datasets
+## Getting Started
 
-## Why This Repo Exists
+1. Clone the repository:
 
-Pandas is a powerful tool for data analysis in Python, and the best way to learn it is through hands-on practice. This repository serves as a sandbox for exploring its features without worrying about production-level code.
+    git clone https://github.com/JasonF-CGI/LearnPandas.git  
+    cd LearnPandas
 
-## Structure
+2. Install dependencies (optional but recommended):
 
-The repository may include:
-- Python scripts (.py)
-- Jupyter notebooks (.ipynb)
-- Sample or mock datasets created in code
+    pip install pandas
+
+3. Start with the beginner exercises:
+
+    beginner_exercises/
+
+## Project Structure
+
+LearnPandas/
+    beginner_exercises/
+        employees_exercises.md
+        employees_exercises.py
+        fitness_exercises.md
+        fitness_exercises.py
+        sales_exercises.md
+        sales_exercises.py
+        students_exercises.md
+        students_exercises.py
+        README.md
+
+    datasets/
+        employees_data.csv
+        fitness_data.csv
+        sales_data.csv
+        students_data.csv
+
+## How to Use
+
+For each dataset:
+
+1. Read the `.md` file (questions only)
+2. Open the `.py` file (includes hints)
+3. Solve the exercises step by step
+
+## Datasets
+
+- Employees (HR data)
+- Sales (transactions)
+- Fitness (time series data)
+- Students (categorical data)
+
+## Skills Covered
+
+- Data inspection (head, info, describe)
+- Filtering and selection
+- Grouping and aggregation
+- Creating new columns
+- Sorting and ranking
+- Time series basics
+
+## Next Steps
+
+Planned additions:
+- Intermediate exercises (joins, merges, pivot tables)
+- Real-world mini projects
 
 ## Notes
 
-- Data used here is mocked or generated for learning purposes  
-- Code is experimental and may not follow best practices  
-- This is not intended for production use  
-
-## Resources
-
-- https://pandas.pydata.org/docs/  
-- https://docs.python.org/3/
+- Try to solve each problem yourself before searching for answers
+- Focus on understanding the operations, not just getting the result
