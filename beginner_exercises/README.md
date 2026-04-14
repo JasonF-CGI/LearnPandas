@@ -1,31 +1,36 @@
 # Beginner Exercises
 
-Use these exercises with the CSV files in `../datasets/`.
+This folder contains beginner-level pandas exercises using realistic datasets.
+
+## Structure
+
+Each dataset includes:
+
+- `.md` file → exercise questions (no hints)
+- `.py` file → code template with hints to guide you
+
+## How to use
+
+1. Open a dataset exercise (e.g. `employees_exercises.md`)
+2. Read the questions
+3. Open the corresponding `.py` file
+4. Write your solutions in the provided sections
 
 ## Datasets
-- `sales_data.csv`
-- `students_data.csv`
-- `employees_data.csv`
-- `fitness_data.csv`
 
-## Suggested workflow
-1. Load each CSV with `pandas.read_csv()`.
-2. Inspect the data with `.head()`, `.info()`, `.describe()`.
-3. Solve the exercises without looking at the answers first.
-4. Try writing your own extra questions after each section.
+All datasets are located in:
 
-## Topics covered
-- Loading data
-- Selecting columns
-- Filtering rows
-- Sorting values
-- Creating new columns
-- Grouping and aggregation
-- Basic date handling
-- Simple data cleanup
+../datasets/
 
-## Folder idea
-You can keep your solutions in a separate notebook or script, for example:
-- `solutions/beginner_solutions.ipynb`
-- `solutions/beginner_solutions.py`
+## Tips
 
+When working with a new dataset, start by exploring it:
+
+    df.head()
+    df.info()
+    df.describe()
+
+## Notes
+
+- Try to solve each problem yourself before searching for answers
+- Focus on understanding the pandas operations, not just getting the result
