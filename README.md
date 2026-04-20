@@ -4,7 +4,7 @@ A structured, hands-on repository for learning pandas using realistic datasets a
 
 ## Overview
 
-This repo is designed to help you learn pandas by doing.
+This repo is designed to help you learn pandas by doing basic exercises.
 
 It includes:
 - Multiple realistic datasets
